@@ -9,7 +9,7 @@ const App = () => {
           <aside className='w-1/4'>
             <EmailList />
           </aside>
-          <section className='w-3/4 py-10'>
+          <section className='w-3/4'>
             <EmailDetails />
           </section>
         </div>
