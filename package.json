@@ -10,6 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@azure/identity": "^4.5.0",
+    "@azure/msal-browser": "^3.28.0",
+    "@microsoft/microsoft-graph-client": "^3.0.7",
     "@tanstack/react-query": "^5.62.8",
     "axios": "^1.7.9",
     "dompurify": "^3.2.3",

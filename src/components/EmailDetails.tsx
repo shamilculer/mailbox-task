@@ -17,7 +17,7 @@ const EmailDetails = () => {
   });
 
   if (!selectedEmail) {
-    return <div className='w-full flex items-center justify-center text-2xl font-semibold'>Select an email to view details</div>;
+    return <div className='w-full h-screen flex items-center justify-center text-2xl font-semibold'>Select an email to view details</div>;
   }
 
   const emailBody = DOMPurify.sanitize(selectedEmail.body.content);
